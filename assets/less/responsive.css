@@ -1,0 +1,29 @@
+/* >767px Width */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    * {
+        text-align: center;
+    }
+    .left,
+    .right {
+        float: none;
+    }
+    .navbar-toggle {
+        border: none !important;
+    }
+    .navbar-toggle .icon-bar {
+        height: 3px !important;
+        width: 30px !important;
+        background-color: #fff !important;
+    }
+    .navbar-collapse {
+        border: none !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    .homeJumbo .col-md-4 img {
+        display: none;
+    }
+    #nav {
+        padding-top: 0;
+    }
+}
